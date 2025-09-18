@@ -18,6 +18,6 @@ app.put("/lembretes", (req, res) => {
     res.status(201).send(lembretes[contador])
 })
 
-app.listen(4050, () => {
-    console.log("Lembretes. Porta 4000")
+app.listen(666, () => {
+    console.log("Lembretes da porta.")
 })
